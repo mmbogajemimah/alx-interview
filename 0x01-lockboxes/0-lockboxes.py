@@ -1,7 +1,9 @@
 #!/usr/bin/python3
+'''Lock Boxes Challenge'''
 
 
 def canUnlockAll(boxes):
+    '''The Function Determines if the boxes can be oppened or not'''
     visited = [False] * len(boxes)
     visited[0] = True
     keys = [0]
