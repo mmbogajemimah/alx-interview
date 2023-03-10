@@ -34,7 +34,7 @@ async function starWarsApi () {
           if (error) {
             console.error('Error:', error);
           } else {
-            console.log('Character name:', body.name);
+            console.log(body.name);
           }
         });
       }
