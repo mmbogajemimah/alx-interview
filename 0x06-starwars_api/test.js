@@ -7,6 +7,7 @@ async function starWarsApi () {
   //     console.log('body', body); // Print the HTML for the Google homepage.
   // });
 
+  let characterAPI;
   const num = process.argv[2];
   const options = {
     url: `https://swapi-api.alx-tools.com/api/films/${num}/`,
